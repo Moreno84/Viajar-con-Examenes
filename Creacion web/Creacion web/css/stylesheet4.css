@@ -1,0 +1,209 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width: 100%;
+  margin: 0px auto;
+
+}
+
+
+/*head*/
+h1 {
+
+  font-size: 46px;
+  color:rgba(77,255,207);
+  font-weight:normal;
+  text-decoration: underline #000;
+  text-align: center;
+  margin: 80px 0px 80px 0px;
+
+
+}
+
+/*nav*/
+
+header .nav {
+
+  width: 70%;
+  margin: auto;
+  background-color:#4dffcf;
+  font-size: 20px;
+  text-align: right;
+  
+  }
+  
+  
+  header .nav ul{
+  overflow: hidden;
+  width: 100%;
+  list-style: none;
+  text-align:right;
+  
+  }
+  
+  header .nav ul li {
+  
+  float: left;
+  
+  }
+  
+  header .nav ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  header .nav ul li a:hover{
+  
+    background: #000;;
+    border-radius: 0px;
+    color:#4dffcf;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+ main{
+   width: 70%;
+   margin: 0px auto;
+   overflow: hidden;
+ }
+
+ /*image*/
+
+.image{
+width: 70%;
+display: flex;
+margin: auto;
+
+
+}
+ .image img{
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 5px;
+ }
+
+/*title*/
+
+.titulo{
+  width: 100%;
+}
+
+.titulo .header{
+
+  color:#4dffcf;
+  text-align: center;
+  /*margin: 0px 100px 50px 100px;*/
+  margin: 5px auto ;
+  border-radius: 5px;
+
+
+}
+
+/*text*/
+.container {
+
+width: 70%;
+margin: auto;
+overflow: hidden;
+
+}
+
+.mitad {
+
+width: 50%;
+float: left;
+margin-top: 20px;
+
+
+}
+
+.mitad p{
+  margin-right: 10px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+textarea{
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  max-height: 100px;
+  min-height: 50px;
+
+}
+
+input[type=submit] {
+  width: 70%;
+  float: right;
+  background-color: #4dffcf;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+  
+}
+/*footer*/
+
+footer{
+  width: 70%;
+  margin:auto;
+}
+
+footer p{
+  background:#4dffcf;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0px;
+  margin: 0px;
+  cursor: pointer;
+  
+}
+
+footer p:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+

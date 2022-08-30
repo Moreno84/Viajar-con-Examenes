@@ -1,0 +1,137 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width: 100%;
+  margin: 0px auto;
+
+}
+
+header{
+  width: 70%;
+  margin: 0px auto;
+}
+
+
+h1 {
+
+font-size: 46px;
+color:#4dffcf;
+font-weight:normal;
+text-decoration: underline #000;
+text-align: center;
+margin: 80px 0px 80px 0px;
+cursor: pointer;
+
+}
+
+header .nav {
+
+width: 100%;
+background-color:#4dffcf;
+font-size: 20px;
+text-align: right;
+
+}
+
+
+header .nav ul{
+overflow: hidden;
+width: 100%;
+list-style: none;
+text-align:right;
+
+}
+
+header .nav ul li {
+
+float: left;
+
+}
+
+header .nav ul li a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+
+ 
+}
+
+header .nav ul li a:hover{
+
+  background: #000;;
+  border-radius: 0px;
+  color:#4dffcf;
+  border: none;
+  cursor: pointer;
+ 
+
+}
+main{
+  width: 70%;
+  margin: auto;
+  
+}
+
+
+.image img{
+  width: 70%;
+  height: 50%;
+  margin: 20px auto;
+  display: flex;
+  border-radius: 20px;
+}
+
+.titulo{
+
+text-decoration: underline;
+color: black;
+text-align: center;
+padding: 20px 20px;
+}
+
+main .parrafo{
+  width: 80%;
+  margin: auto;
+}
+
+.parrafo p{
+
+font-size: 16px;
+margin: 50px 100px 50px 100px;
+
+
+}
+
+/*Footer*/
+
+footer{
+  width: 70%;
+  margin: 0px auto;
+
+}
+
+footer p{
+  background:#4dffcf;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+footer p:hover{
+  color: #fff;
+  text-decoration: underline;
+}
