@@ -1,2 +1,2 @@
 # Viajar-con-examenes
-I did this website with HTML, CSS, JavaScript and PHP.
+I did this website with HTML5, CSS3, JavaScript and PHP.
